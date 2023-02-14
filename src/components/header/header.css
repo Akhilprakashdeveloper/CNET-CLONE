@@ -1,0 +1,55 @@
+nav{
+    background-color: #fff;
+    border-bottom: 1px solid  #DADADA;
+}
+#brand{
+ font-size: 50px;
+ font-weight: bold;
+ color: red;
+ font-family: sans-serif;
+}
+.navbar-text{
+    font-size: 24px;
+    font-weight: 600;
+    color: #E71D1D;
+    font-family:serif;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: #000;
+}
+
+.nav-link:hover {
+    color: red;
+  }
+  
+
+  @media (max-width: 1400px) {
+    .navbar-nav .nav-item:nth-child(7),
+    .navbar-nav .nav-item:nth-child(8) {
+      display: none;
+    }
+    .navbar-nav .nav-link {
+        font-size: 20px;
+      }
+  }
+
+  @media (max-width: 1300px) {
+    .navbar-nav .nav-item:nth-child(6)
+ {
+      display: none;
+    }
+    .navbar-nav .nav-link {
+        font-size: 20px;
+      }
+  }
+  @media (max-width: 1200px) {
+    .navbar-nav .nav-item:nth-child(5) {
+      display: none;
+    }
+    .navbar-nav .nav-link {
+        font-size: 20px;
+      }
+  }
+ 

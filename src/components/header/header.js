@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './header.css';
 import DropdownMenu from './Dropdown';
 import { FaAngleDown, FaAngleUp } from 'react-icons/fa';
-
+const data='https://amazonapi.onrender.com/products';
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [linkText, setLinkText] = useState('More');
@@ -13,6 +13,7 @@ function Header() {
     setLinkText(isOpen ? 'More' : 'Close');
     setIcon(isOpen ? <FaAngleDown /> : <FaAngleUp />);
   };
+
 
   return (
     <div>
@@ -61,7 +62,7 @@ function Header() {
       <h2 style={{fontSize:"50px",fontWeight:'600',fontFamily: 'Sentinel,serif'}}>Get the tech that takes you places</h2>
       <p style={{fontWeight:'430',fontSize:'20px'}}>Our experts share the newest products and technologies that get you the most out of your world.</p>
       <div class="d-flex justify-content-start" style={{marginTop:'3%',borderBottom:'1px solid #dadada',paddingBottom:'1%'}}>
-        <a href="#" class="me-3" style={{textDecoration:"underline 2px solid red",textDecorationSkipInk:'auto',textUnderlinePosition:'under'}}>Tech</a>
+        <a href="#" class="me-3" style={{textDecoration:"underline 2px solid red",color:'red', textDecorationSkipInk:'auto',textUnderlinePosition:'under'}}>Tech</a>
         <a href="#" class="me-3">Home Entertainment</a>
         <a href="#" class="me-3">Mobile</a>
         <a href="#" class="me-3">Computing</a>

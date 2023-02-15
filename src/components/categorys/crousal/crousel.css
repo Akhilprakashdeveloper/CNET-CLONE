@@ -1,0 +1,37 @@
+.custom-div {
+    height: 400px;
+    width: 25%;
+  }
+.custom-div img{
+    width: 100%;
+    height: 70%;
+}
+.custom-div a{
+    text-decoration: none;
+    margin-left: 5%;
+}
+.custom-div p{
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 3%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.custom-div p:hover{
+    color: red;
+}
+
+.row::-webkit-scrollbar {
+    height: 5px;
+  }
+  
+  .row::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .row::-webkit-scrollbar-thumb {
+    background: red;
+  }
+  
+  

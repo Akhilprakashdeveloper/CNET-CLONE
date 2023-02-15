@@ -1,0 +1,68 @@
+.Maindiv{
+    height: 550px;
+    width: 100%;
+    border-bottom: 1px solid  #DADADA;
+}
+.main-title{
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+.innerdiv{
+    width: 25%;
+    height: 500px;
+    margin-left: 1%;
+    float: left;
+}
+.innerdiv a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+}
+.innerdiv a:hover{
+    color: red;
+}
+
+.innerdiv p{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin-top: 5%;
+}
+.innerdiv img{
+    width: 100%;
+    height: 50%;
+}
+
+.rightdiv{
+    width: 45%;
+    height: 480px;
+    margin-left: 1%;
+    float: left;
+    padding: 2%;
+}
+
+.right-innerdiv{
+    width: 100%;
+    height: 33%;
+    margin-top: 1%;
+    margin-top: 1%;
+    border-bottom: 1px solid  #DADADA;
+}
+
+.right-innerdiv a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+}
+.right-innerdiv a:hover{
+   color: red;
+}
+
+.right-innerdiv p{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}

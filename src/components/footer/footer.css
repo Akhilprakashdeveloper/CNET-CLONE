@@ -1,0 +1,49 @@
+.mainDiv{
+    height: 350px;
+    width: 70%;
+    padding: 1%;
+    margin-top: 2%;
+    margin-left: 15%;
+    border-bottom: 1px solid  #DADADA;
+}
+.innerDiv{
+    width: 12%;
+    height: 400px;
+    float: left;
+    margin-left: 10%;
+}
+.innerDiv a{
+    text-decoration:none;
+}
+.innerDiv h5{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.innerDiv p{
+    margin-top: 8%;
+    color: black;
+    line-height: 22px;
+}
+
+.innerDiv a:hover{
+    text-decoration: underline 1px solid red;
+}
+
+@media (max-width: 1440px) {
+    .mainDiv{
+        height: 350px;
+        width: 100%;
+        padding: 1%;
+        margin-top: 2%;
+        margin-left: -2%;
+    }
+    .innerDiv{
+        width: 20%;
+        height: 400px;
+        float: left;
+        margin-left: 5%;
+    }
+  }
+
+ 

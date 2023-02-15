@@ -23,7 +23,9 @@ nav{
 .nav-link:hover {
     color: red;
   }
-  
+  .me-3{
+    text-decoration: none;
+  }
 
   @media (max-width: 1400px) {
     .navbar-nav .nav-item:nth-child(7),

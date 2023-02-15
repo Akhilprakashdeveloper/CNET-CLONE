@@ -1,0 +1,33 @@
+.mainDiv{
+    width: 100%;
+    padding: 1%;
+}
+.innerDiv{
+    width: 12%;
+    height: 400px;
+    float: left;
+    margin-left: 0.5%;
+}
+.innerDiv a{
+    text-decoration:none;
+}
+.innerDiv h5{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.innerDiv p{
+    margin-top: 8%;
+    color: black;
+    line-height: 22px;
+}
+
+.innerDiv a:hover{
+    text-decoration: underline 1px solid red;
+}
+
+@media (max-width: 1440px) {
+   .innerDiv{
+    width: 22%;
+   }
+  }
